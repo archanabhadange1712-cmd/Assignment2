@@ -1,0 +1,138 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+.container {
+    display: flex;
+      max-width: 12000px;
+      margin: 0 auto;
+      padding: 0 20px;
+      height: calc(-100vh);
+
+    
+    
+
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.Logo h2 {
+     font-size:2rem;
+     font-weight: bold;
+     margin-inline: 5rem;
+     margin-top: 1rem;
+     
+}
+
+.nav-link {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+        margin-top: 1rem;
+
+}
+.nav-link a {
+    color: #333;
+    text-decoration: none;
+    padding: 2rem;
+    border-radius: 4px;
+    transition: background-color 0.5s ease-in;
+    
+}
+
+.nav-link a:hover {
+    color:lightskyblue;
+    cursor: pointer;
+    transform: translateY(-12PX);
+
+}
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.left h1 {
+    font-size: 2rem;
+    font-family:sans-serif;
+    color:rgb(62, 61, 61);;
+    line-height: 3rem;
+
+
+
+}
+
+.left h2 {
+       font-size: 2rem;
+       font-family: sans-serif;
+       color: blue;
+       line-height: 3rem;
+}
+
+.left p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: rgb(62, 61, 61);
+
+}
+
+.btn {
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+     font-weight: bold;
+     transition: all 0.3sec ease;
+     display: inline-block;
+
+}
+.btn-primary {
+
+    background-color: blue;
+    color: white;
+
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    transform: translateY(-2PX);
+}
+
+.btn-secondary {
+
+    background-color: lightskyblue;
+    color: white;
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+}
+
+
+@media (max-width:1440px) and (min-width:800px){
+    .container{
+        flex-direction: column;
+    }
+    }
+   
+ 
+        
+    
